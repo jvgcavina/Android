@@ -14,8 +14,6 @@ public class Screen1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen1);
 
-        setTitle("Screen1");
-
         btnBack = (Button) findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -15,13 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Screen1Activity">
+        <activity android:name=".Screen1Activity" android:label="Screen1">
             <intent-filter>
                 <action android:name="ACTION_SCREEN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Screen2Activity">
+        <activity android:name=".Screen2Activity" android:label="Screen2">
             <intent-filter>
                 <action android:name="ACTION_SCREEN" />
                 <category android:name="android.intent.category.DEFAULT" />
