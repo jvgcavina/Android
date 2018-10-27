@@ -1,0 +1,4 @@
+#Tue Oct 09 22:43:00 BRT 2018
+base.0=/Users/josevictor/Documents/projects/androidlearning/AndroidService/app/build/intermediates/transforms/dexMerger/debug/20
+path.0=classes.dex
+renamed.0=classes.dex
