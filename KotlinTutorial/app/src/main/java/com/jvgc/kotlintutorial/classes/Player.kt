@@ -8,11 +8,32 @@ class Player(
     var level: Int = 1,
     var score: Int = 0) {
 
+    var weapon = Weapon("Fist", 5)
+    var inventory = ArrayList<Item>()
+
+    // Overriding function
+    override fun toString(): String {
+        return """
+            $name de $constellation
+            Lives: $lives Level: $level Score: $score
+            Blow: $weapon
+            """
+    }
+
     fun show() {
         // Three double quotes to print in several lines
         println("""
             $name de $constellation
             Lives: $lives Level: $level Score: $score
+            Blow: $weapon
             """)
+    }
+
+    fun showInventory() {
+        println("$name's Inventory")
+        for (item in inventory) {
+            println(item)
+        }
+        println("=============================")
     }
 }
