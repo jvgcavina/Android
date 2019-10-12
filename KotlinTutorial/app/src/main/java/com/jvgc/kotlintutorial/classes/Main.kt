@@ -89,4 +89,8 @@ fun main() {
     println(gandalf)
     gandalf.takeDamage(6)
     println(gandalf)
+
+    while (gandalf.lives > 0) {
+        gandalf.takeDamage(5)
+    }
 }

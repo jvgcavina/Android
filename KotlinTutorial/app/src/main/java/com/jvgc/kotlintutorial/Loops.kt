@@ -53,4 +53,29 @@ fun main() {
             println(i)
         }
     }
+
+    // Sample 7 - for loop to set objects (iterate through all items of the set
+    val strings = ArrayList<String>()
+    strings.add("Item1")
+    strings.add("Item2")
+    strings.add("Item3")
+    strings.add("Item4")
+
+    for (s:String in strings) {
+        println(s)
+    }
+
+    // Sample 8 - while loop (iterate while the condition is true)
+    var j = 0
+    while (j < 10) {
+        println(j)
+        j++
+    }
+
+    // Sample 9 - do while loop (iterate while the condition is true, but at least one time)
+    var k = 0
+    do {
+        println(k)
+        k++
+    } while(k < 10)
 }
