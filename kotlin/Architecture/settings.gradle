@@ -1,0 +1,4 @@
+include ':mvvm'
+include ':mvp'
+include ':mvc'
+rootProject.name = "Architecture"

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MVVM</string>
+
+    <string name="gender">Gender:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="species">Species:</string>
+    <string name="patronus">Patronus:</string>
+    <string name="ancestry">Ancestry:</string>
+    <string name="is_alive">Is Alive:</string>
+    <string name="hogwarts">Hogwarts:</string>
+
+    <string name="wand">Wand</string>
+    <string name="wandWood">Wood:</string>
+    <string name="wandCore">Core:</string>
+    <string name="wandLength">Length:</string>
+</resources>
